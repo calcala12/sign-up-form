@@ -1,0 +1,131 @@
+body {
+    width: 100vw;
+    height: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(245, 245, 242);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.img {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    margin: 1% 1% 1% 1%;
+    background: url(halie-west-25xggax4bSA-unsplash.jpg) no-repeat center;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.odin-logo {
+    justify-content: center;
+   max-width: 100%;
+   max-height: 100%;
+   
+    
+}
+
+.odin-banner {
+    background-color: rgba(0, 0, 0, 0.443);
+    height: 10%;
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.odin-text {
+    padding-top: 10px;
+    color: white;
+}
+
+.form-section {
+    background-color: rgb(255, 255, 255);
+   margin-left: -10px;
+   box-shadow: 0px 2px 5px 0px rgb(0,0,0);;
+  
+    
+}
+
+.lets-do-this {
+    padding-top: 1%;
+    padding-left: 10%;
+    display: flex;
+    flex: auto;
+}
+
+form {
+    padding-top: 10px;
+}
+
+.form-info {
+    padding-top: 100px;
+    padding-left: 25px;
+}
+
+.first-name {
+    display: inline-block;
+}
+
+.last-name {
+    display: inline-block;
+}
+
+.email-input {
+    display: inline-block;
+}
+
+.password-input {
+    display: inline-block;
+    
+}
+
+label {
+    width: 180px;
+    clear: left;
+    text-align: right;
+    padding-right: 10px;
+}
+
+input, label {
+    float: left;
+}
+
+.create-account {
+    color: #E5E7EB;
+    padding-top: 25px;
+}
+
+.create-account-btn {
+    
+        background-color: #4CAF50; /* Green */
+        border: none;
+        border-radius: 4%;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        box-shadow: 0px 2px 5px 0px rgb(0,0,0);;
+        
+      
+}
+
+.create-account-btn:hover {
+    background-color:#002ead;
+    transition: 0.7s;
+}
+
+.create-account-btn:active {
+    background-color: #ffbf00;
+}
+
+.login-btn {
+    
+}
